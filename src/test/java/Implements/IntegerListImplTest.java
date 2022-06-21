@@ -9,9 +9,9 @@ import static Implements.Constants.*;
 import static org.junit.jupiter.api.Assertions.*;
 import static org.junit.jupiter.api.Assertions.assertThrows;
 
-class StringListImplTest {
+class IntegerListImplTest {
 
-    private final IntegerListImpl out = new IntegerListImpl(5);
+    private final IntegerListImpl out = new IntegerListImpl(FIVE);
 
     @Test
     void addElementWithoutIndex() {
